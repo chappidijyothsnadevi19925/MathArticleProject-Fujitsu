@@ -26,7 +26,7 @@ namespace MathArticleProjects
                     min = myArr[i];
                 }
             }
-            Console.WriteLine(max);
+            Console.WriteLine(max);//Comments added
             Console.WriteLine(min);
             
         }
