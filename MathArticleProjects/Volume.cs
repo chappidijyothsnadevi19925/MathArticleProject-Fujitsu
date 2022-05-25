@@ -24,20 +24,7 @@ namespace MathArticleProjects
         {
             return 3.14 * r2 * r2 * (h2 / 3);
         }
-        static void Main(String[] args)
-        {
-            double res = Volume.VolumeOfSphere(15.5);
-            Console.WriteLine(res);
-
-            double res1 = Volume.VolumeOfCylinder(15.5, 65.2);
-            Console.WriteLine(res1);
-
-            double res2 = Volume.VolumeOfCuboid(20, 20.5, 65.2);
-            Console.WriteLine(res2);
-
-            double res3 = Volume.VolumeOfCone(15.5, 65.2);
-            Console.WriteLine(res3);
-        }
+        
 
     }
 }
