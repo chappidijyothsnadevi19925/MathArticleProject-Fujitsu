@@ -8,7 +8,7 @@ namespace MathArticleProjects
 {
     internal class Volume1
     {
-        static void Main(String[] args)
+        static void Main8(String[] args)
         {
             double res = Volume.VolumeOfSphere(15.5);
             Console.WriteLine(res);

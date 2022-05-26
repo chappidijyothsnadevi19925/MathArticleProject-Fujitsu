@@ -10,7 +10,8 @@ namespace SeleniumConcepts
 {
     internal class Program
     {
-        static void Main12(string[] args)
+       // static void Main(string[] args)
+        static void Main(string[] args)
         {
             // Console.WriteLine("hello");
             IWebDriver driver = new ChromeDriver();

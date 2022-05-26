@@ -10,7 +10,7 @@ namespace SeleniumConcepts
 {
     internal class MyAdmin
     {
-        static void Main(String[] args)
+        static void Main10(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://www.db4free.net/phpMyAdmin/";
