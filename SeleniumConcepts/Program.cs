@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using Microsoft.Edge.SeleniumTools;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -11,12 +12,14 @@ namespace SeleniumConcepts
     internal class Program
     {
        // static void Main(string[] args)
-        static void Main(string[] args)
+        static void Main86(String[] args)
         {
             // Console.WriteLine("hello");
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new EdgeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             //driver.Quit();
-            driver.Url = "https://opensource-demo.orangehrmlive.com/";
+            driver.Url = "https://";
             //String url = driver.Url;
             //Console.WriteLine(url);
             driver.FindElement(By.Id("txtUsername")).SendKeys("Admin");
